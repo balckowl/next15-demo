@@ -1,5 +1,4 @@
 import prisma from "@/lib/db";
-import { revalidateTag } from "next/cache";
 import { redirect } from "next/navigation";
 
 export default function Page() {
@@ -17,7 +16,6 @@ export default function Page() {
             }
         })
         
-        // revalidateTag('my-data')
         redirect("/")
     }
 
