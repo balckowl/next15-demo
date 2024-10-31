@@ -5,3 +5,7 @@
 
 # ppr 
 - https://zenn.dev/akfm/books/nextjs-basic-principle/viewer/part_4_partial_pre_rendering
+
+```
+$ npx create-next-app@canary
+```
